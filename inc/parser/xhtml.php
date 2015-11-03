@@ -251,9 +251,9 @@ class Doku_Renderer_xhtml extends Doku_Renderer {
             $data['codeblockOffset'] = $this->_codeblock;
             $this->doc .= ' class="'.$this->startSectionEdit($pos, $data).'"';
         }
-        $this->doc .= ' id="'.$hid.'">';
+        $this->doc .= ' id="'.$hid.'"><span>';
         $this->doc .= $this->_xmlEntities($text);
-        $this->doc .= "</h$level>".DOKU_LF;
+        $this->doc .= "</span></h$level>".DOKU_LF;
     }
 
     /**
