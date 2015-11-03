@@ -219,9 +219,9 @@ class Doku_Renderer_xhtml extends Doku_Renderer {
         if($level <= $conf['maxseclevel']) {
             $this->doc .= ' class="'.$this->startSectionEdit($pos, 'section', $text).'"';
         }
-        $this->doc .= ' id="'.$hid.'">';
+        $this->doc .= ' id="'.$hid.'"><span>';
         $this->doc .= $this->_xmlEntities($text);
-        $this->doc .= "</h$level>".DOKU_LF;
+        $this->doc .= "</span></h$level>".DOKU_LF;
     }
 
     /**
