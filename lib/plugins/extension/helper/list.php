@@ -56,7 +56,7 @@ class helper_plugin_extension_list extends DokuWiki_Plugin {
      * @param int    $level  The level of the header
      */
     function add_header($id, $header, $level = 2) {
-        $this->form .='<h'.$level.' id="'.$id.'">'.hsc($header).'</h'.$level.'>'.DOKU_LF;
+        $this->form .='<h'.$level.' id="'.$id.'"><span>'.hsc($header).'</span></h'.$level.'>'.DOKU_LF;
     }
 
     /**
@@ -219,9 +219,9 @@ class helper_plugin_extension_list extends DokuWiki_Plugin {
      */
     function make_legend(helper_plugin_extension_extension $extension, $showinfo = false) {
         $return  = '<div>';
-        $return .= '<h2>';
+        $return .= '<h2><span>';
         $return .= sprintf($this->getLang('extensionby'), '<bdi>'.hsc($extension->getDisplayName()).'</bdi>', $this->make_author($extension));
-        $return .= '</h2>'.DOKU_LF;
+        $return .= '</span></h2>'.DOKU_LF;
 
         $return .= $this->make_screenshot($extension);
 
