@@ -20,7 +20,7 @@ body {
     padding: 0;
 }
 body {
-    font: normal 87.5%/1.4 Arial, sans-serif;
+    font: normal 87.5%/1.4 Verdana, Helvetica, Arial, sans-serif;
     /* default font size: 100% => 16px; 93.75% => 15px; 87.5% => 14px; 81.25% => 13px; 75% => 12px */
     -webkit-text-size-adjust: 100%;
 }
@@ -197,7 +197,7 @@ a {
 }
 a:link,
 a:visited {
-    text-decoration: none;
+    text-decoration: underline;
     color: @ini_link;
 }
 a:link:hover,
@@ -267,17 +267,17 @@ kbd {
     font-size: 1em;
     direction: ltr;
     text-align: left;
-    background-color: @ini_background_site;
+    background-color: @ini_background_code;
     color: @ini_text;
-    box-shadow: inset 0 0 .3em @ini_border;
+    box-shadow: inset 0 0 .3em @ini_border_code;
     border-radius: 2px;
 }
 pre {
     overflow: auto;
     word-wrap: normal;
-    border: 1px solid @ini_border;
+    border: 1px solid @ini_border_code;
     border-radius: 2px;
-    box-shadow: inset 0 0 .5em @ini_border;
+    box-shadow: inset 0 0 .5em @ini_border_code;
     padding: .7em 1em;
 }
 

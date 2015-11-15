@@ -100,6 +100,7 @@
     border-radius: .5em .5em 0 0;
     font-weight: normal;
     background-color: @ini_background_alt;
+    background-image: none;
     color: @ini_text;
     border: 1px solid @ini_border;
     border-bottom-color: @ini_background_alt;
