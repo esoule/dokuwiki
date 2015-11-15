@@ -34,6 +34,7 @@
 /lib/tpl/*
 !/lib/tpl/dokuwiki
 !/lib/tpl/index.php
+!/lib/tpl/loquaciousrutabaga
 /lib/plugins/*
 !/lib/plugins/acl
 !/lib/plugins/authad
@@ -41,12 +42,16 @@
 !/lib/plugins/authmysql
 !/lib/plugins/authpgsql
 !/lib/plugins/authplain
+!/lib/plugins/cacherevisionserase
 !/lib/plugins/config
+!/lib/plugins/editx
 !/lib/plugins/extension
 !/lib/plugins/info
+!/lib/plugins/note
 !/lib/plugins/popularity
 !/lib/plugins/revert
 !/lib/plugins/safefnrecode
+!/lib/plugins/searchindex
 !/lib/plugins/styling
 !/lib/plugins/testing
 !/lib/plugins/usermanager
