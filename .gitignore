@@ -110,3 +110,8 @@ vendor/simplepie/simplepie/db.sql
 !/data/tmp/_dummy
 !/inc/.htaccess
 !/inc/lang/.htaccess
+
+# Files that are ignored in the repository but are present in the tarball
+!/data/pages/playground/
+/data/pages/playground/*
+!/data/pages/playground/playground.txt
