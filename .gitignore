@@ -1,3 +1,7 @@
+# NOTE! Please use 'git ls-files -i --exclude-standard'
+# command after changing this file, to see if there are
+# any tracked files which get ignored after the change.
+
 /conf/*.local.conf
 /conf/acl.auth.php
 /conf/local.php
@@ -81,3 +85,28 @@ vendor/paragonie/random_compat/build-phar.sh
 vendor/paragonie/random_compat/dist/*
 vendor/paragonie/random_compat/other/*
 vendor/simplepie/simplepie/db.sql
+
+# Files that should be ignored but are stored in the repository
+!/bin/.htaccess
+!/conf/.htaccess
+!/data/.htaccess
+!/data/attic/_dummy
+!/data/cache/_dummy
+!/data/index/_dummy
+!/data/locks/_dummy
+
+!/data/media/wiki/
+/data/media/wiki/*
+!/data/media/wiki/dokuwiki-128.png
+
+!/data/media_attic/_dummy
+!/data/media_meta/_dummy
+!/data/meta/_dummy
+!/data/pages/wiki/
+/data/pages/wiki/*
+!/data/pages/wiki/dokuwiki.txt
+!/data/pages/wiki/syntax.txt
+!/data/pages/wiki/welcome.txt
+!/data/tmp/_dummy
+!/inc/.htaccess
+!/inc/lang/.htaccess

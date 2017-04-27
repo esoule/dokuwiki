@@ -6,3 +6,5 @@ composer.lock
 apigen.phar
 docs/
 
+# Files that should be ignored but are stored in the repository
+!/phpunit.xml
