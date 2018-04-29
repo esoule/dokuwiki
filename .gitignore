@@ -132,3 +132,12 @@ vendor/splitbrain/php-cli/apigen.neon
 !/lib/plugins/cli.php
 !/vendor/.htaccess
 !/vendor/splitbrain/php-archive/phpunit.xml
+
+#
+# Plugins and templates that were added
+#
+!/lib/tpl/loquaciousrutabaga
+!/lib/plugins/cacherevisionserase
+!/lib/plugins/editx
+!/lib/plugins/note
+!/lib/plugins/searchindex
