@@ -5,7 +5,8 @@
  */
 
 body {
-    font: normal 87.5%/1.3 Garamond, Baskerville, "Hoefler Text", "Nimbus Roman No9 L", serif;
+    font: normal 87.5%/1.4 Verdana, Helvetica, Arial, sans-serif;
+    /* default font size: 100% => 16px; 93.75% => 15px; 87.5% => 14px; 81.25% => 13px; 75% => 12px */
     background-color: #fff;
     color: #000;
 }
