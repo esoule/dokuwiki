@@ -1,0 +1,3 @@
+====== Paginabeheer ======
+
+Gebruik @LINK@ om deze pagina te verplaatsen of verwijderen.
