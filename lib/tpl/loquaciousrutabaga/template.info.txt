@@ -1,7 +1,7 @@
 base     loquaciousrutabaga
 author   Evgueni Souleimanov
 email    esoule@100500.ca
-date     2018-04-22
+date     2018-05-21
 name     loquacious-rutabaga DokuWiki Template
 desc     Local Modifications to DokuWiki's default template since 2012
 url      http://www.dokuwiki.org/template:dokuwiki

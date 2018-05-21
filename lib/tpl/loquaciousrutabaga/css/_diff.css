@@ -50,7 +50,7 @@
 }
 .dokuwiki table.diff .diff-lineheader,
 .dokuwiki table.diff td {
-    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Bitstream Vera Sans Mono", "Nimbus Mono L", Monaco, "Courier New", monospace;
+    font-family: "DejaVu Sans Mono", Consolas, "Andale Mono WT", "Andale Mono", "Bitstream Vera Sans Mono", "Nimbus Mono L", Monaco, "Courier New", monospace;
 }
 .dokuwiki table.diff td.diff-blockheader {
     font-weight: bold;
