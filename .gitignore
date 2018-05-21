@@ -96,6 +96,61 @@ vendor/splitbrain/php-cli/apigen.neon
 
 
 #
+# Normal rules (sorted alphabetically)
+#
+.*
+*.a
+*.bin
+*.bz2
+*.diff
+*.gz
+*.lst
+*.lz4
+*.lzma
+*.lzo
+*.patch
+*.tar
+*.tmp
+*.xz
+
+#
+# git files that we don't want to ignore even if they are dot-files
+#
+!.gitattributes
+!.gitignore
+!.mailmap
+!.htaccess.dist
+
+# stgit generated dirs
+patches-*
+
+# quilt's files
+patches
+series
+
+# backup files
+*~
+\#*#
+~$*
+~*
+*.bak
+*.backup
+*.log
+*.log.*
+*.old
+*.org
+*.orig
+*.rej
+
+# temporary files and directories
+tmp-*
+tmp.*
+tmp_*
+*.tmp
+*-tmp
+*_tmp
+
+#
 # Files that are part of the tarball but not part of the upstream repository
 #
 !/bin/.htaccess
